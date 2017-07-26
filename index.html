@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Ninjas</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("img").click(function () {
+          $(this).hide();
+        });
+        $("button").click(function () {
+          $("img").show();
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <h1 class="title">My JQuery basic Assigment!</h1>
+        <div class="right-arrow">
+          <p id="arrow"><=</p>
+        </div>
+        <div class="left-arrow">
+          <p>=></p>
+        </div>
+        <button id="head-tab" type="button" name="button">X</button>
+        <div class="home">
+        </div>
+        <input type="text" name="" value="">
+        <button type="button" name="button">look</button>
+      </div>
+      <div class="content">
+        <h1>Cute Bunnies!</h1>
+        <img src="bunny1.jpg" alt="bunny">
+        <img src="bunny1.jpg" alt="bunny">
+        <img src="bunny1.jpg" alt="bunny">
+        <img src="bunny1.jpg" alt="bunny">
+        <img src="bunny1.jpg" alt="bunny">
+        <img src="bunny1.jpg" alt="bunny">
+        <img src="bunny1.jpg" alt="bunny">
+        <img src="bunny1.jpg" alt="bunny">
+        <button type="button" name="button">Restore</button>
+      </div>
+
+    </div>
+
+  </body>
+</html>
